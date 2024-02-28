@@ -1,0 +1,64 @@
+#hello{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 400px;
+   width: 400px;
+   padding-bottom: 300px;
+}
+   /* Стили для контейнера профиля пользователя */
+   .user-profile-container {
+      max-width: 600px; /* Настройте максимальную ширину по вашему усмотрению */
+      margin: auto; /* Чтобы профиль был по центру экрана */
+      padding: 20px; /* Добавляем внутренние отступы */
+      display: flex; /* Используем flex-контейнер */
+      flex-direction: column; /* Располагаем элементы в столбец */
+    }
+    
+    .user-profile-container h1 {
+      margin-bottom: 20px;
+    }
+    
+    /* Стили для кнопок "Show Edit" и "Hide Edit" */
+    .user-profile-container button {
+      padding: 10px 20px;
+      background-color: #007bff; /* Цвет фона кнопки */
+      color: #fff; /* Цвет текста на кнопке */
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+    
+    .user-profile-container button:hover {
+      background-color: #0056b3; /* Цвет фона кнопки при наведении */
+    }
+    
+    /* Стили для формы редактирования профиля */
+    .user-profile-container form {
+      display: flex; /* Используем flex-контейнер */
+      flex-direction: column; /* Располагаем элементы в столбец */
+    }
+    
+    .user-profile-container label {
+      margin-bottom: 5px;
+    }
+    
+    .user-profile-container input[type="text"],
+    .user-profile-container input[type="email"],
+    .user-profile-container input[type="date"],
+    .user-profile-container select {
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+    
+    .user-profile-container button[type="submit"] {
+      padding: 10px 20px;
+      background-color: #28a745; /* Цвет фона кнопки */
+    }
+    
+    .user-profile-container button[type="submit"]:hover {
+      background-color: #218838; /* Цвет фона кнопки при наведении */
+    }
